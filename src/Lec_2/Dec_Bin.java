@@ -2,7 +2,7 @@ package Lec_2;
 
 public class Dec_Bin {
     public static void main(String[] args) {
-        int n=19;
+        int n=128;
         int sum=0;
         int mul=1;
         while(n>0){
