@@ -7,8 +7,8 @@ public class Hcf {
         int rem=0;
         while(dividend%divisor!=0){
             rem=dividend%divisor;
-            divisor=rem;
             dividend=divisor;
+            divisor=rem;
         }
         System.out.println(divisor);
     }

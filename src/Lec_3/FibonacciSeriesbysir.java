@@ -5,7 +5,7 @@ public class FibonacciSeriesbysir {
         int n=6;
         int prev=0;
         int curr=1;
-        for(int i=1;i<=n;i++){
+        for(int i=0;i<n;i++){
             System.out.print(prev+" ");
             int c=curr+prev;
             prev=curr;

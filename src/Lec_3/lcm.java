@@ -8,8 +8,8 @@ public class lcm {
         //HCF
         while(dividend%divisor!=0){
             rem=dividend%divisor;
-            divisor=rem;
             dividend=divisor;
+            divisor=rem;
         }
         int hcf=divisor;
         System.out.println(hcf+" hcf");
